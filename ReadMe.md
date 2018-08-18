@@ -41,7 +41,7 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
 
 
 
-Limitations:
+### Limitations:
 
 * There is no security - should be run using Adding some sort of authorisation, e.g: JWT, and over HTTPS  
 * Customised error handling so that internal implementation details do not leak
